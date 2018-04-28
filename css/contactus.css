@@ -86,15 +86,15 @@
 
 /*2nd Col*/
 		.midd_col {
-			text-align: left;
-			float: left;
+			text-align: center;
+			float: right;
 			background: #001670;
 			color: #0ff;
-			width: 1029px;
-			height: 500px;
+			width: 750px;
+			height: 400px;
 			margin: 0 20px 0 20px;
 			border: 0;
-			padding: 5px;
+			padding: 10px;
 			overflow: hidden;
 			}
 /*3 Col*/
