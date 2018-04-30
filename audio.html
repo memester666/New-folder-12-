@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+	<title>Index</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	
+</head>
+
+<body>
+<div class="wrapper">
+<div class="header">		
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contactus.html">Contact</a>
+  <a href="audio.html">Audio MP3</a>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Dropdown Menu
+      <i class="fa fa-caret-down"></i>
+    </button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="assignments.html">CGS2820c Assignments</a>
+            <a href="Pictures.html">Pictures</a>
+            <a href="Music.html">Music video</a>
+            <a href="dog.html">My Dog</a>
+        </div>
+    </div> 
+</div>
+
+&nbsp;
+<script>
+/* When the user clicks button, 
+toggling hiding and showing dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Closes dropdown when clicked outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+    
+    <div class="midd_col3">
+            <center><h2>Audio</h2>
+                <img src="images/7.JPG" alt="PolkState" width= "400" height="200"></center>
+        &nbsp;
+        &nbsp;
+            <center><p>Telescope - Cage The Elephant</p>
+    <audio src="Telescope - Cage The Elephant.mp3" controls></audio></center>
+</div> 

@@ -110,6 +110,19 @@
 			padding: 5px;
 			overflow: hidden;
 			}
+
+		.midd_col3 {
+			text-align: left;
+			float: left;
+			background: #001670;
+			color: #ffffff;
+			width: 1500px;
+			height: 500px;
+			margin: 0 20px 0 20px;
+			border: 0;
+			padding: 5px;
+			overflow: hidden;
+			}
 /*3 Col*/
 		.right_col {
 			text-align: 	left;
